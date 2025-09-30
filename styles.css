@@ -88,3 +88,21 @@ body {
   border: none;
   border-radius: 6px;
 }
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .container{
+    width: 90vw;
+    height: auto;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .from-box,
+  .to-box {
+    width: 100%;
+  }
+  #swap {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
